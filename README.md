@@ -1,1 +1,2 @@
 # DisoGraph
+DisoGraph models IDPs as a "node-edge" graph structure from a multi-view perspective. Specifically, node features are residue-level embeddings extracted by pre-trained models; edges consist of two types, namely sequential edges and contact edges. By modeling this graph structure using graph convolutional networks (GCNs), multi-view fusion of node features and edge information is achieved, enabling a more comprehensive characterization of protein features. This method provides a new and effective approach for the accurate prediction of IDPs/IDRs.
